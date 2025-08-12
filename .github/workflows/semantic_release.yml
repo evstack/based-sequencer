@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Configure Semantic Release
         # Work around for non npm project
         # REF: https://github.com/cycjimmy/semantic-release-action/issues/115#issuecomment-1817264419
