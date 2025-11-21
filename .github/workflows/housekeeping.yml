@@ -74,7 +74,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Set issue number and creator login
         run: |
           echo "ISSUE=${{ github.event.issue.number }}" >> $GITHUB_ENV
